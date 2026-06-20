@@ -1,0 +1,27 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: studentsdb
+    environment:
+      POSTGRES_DB: studentsdb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - students_data:/var/lib/postgresql/data
+
+  app:
+    build: .
+    container_name: students-app
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/studentsdb
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: postgres
+    depends_on:
+      - postgres
+
+volumes:
+  students_data:

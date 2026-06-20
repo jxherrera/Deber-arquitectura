@@ -1,0 +1,9 @@
+### Registrar un nuevo estudiante
+POST http://localhost:8080/api/students
+Content-Type: application/json
+
+{
+  "name": "Juan Pérez",
+  "email": "juan.perez@puce.edu.ec",
+  "age": 20
+}
