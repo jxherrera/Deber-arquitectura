@@ -24,12 +24,12 @@
 							"raw": "{\n    \"name\": \"Ana Torres\",\n    \"email\": \"ana@puce.edu.ec\"\n}"
 						},
 						"url": {
-							"raw": "http://localhost:8787/api/students",
+							"raw": "http://localhost:8082/api/students",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8787",
+							"port": "8082",
 							"path": [
 								"api",
 								"students"
@@ -43,12 +43,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8787/api/students",
+							"raw": "http://localhost:8082/api/students",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8787",
+							"port": "8082",
 							"path": [
 								"api",
 								"students"
@@ -62,12 +62,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8787/api/students/1",
+							"raw": "http://localhost:8082/api/students/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8787",
+							"port": "8082",
 							"path": [
 								"api",
 								"students",
@@ -91,12 +91,12 @@
 							"raw": "{\n    \"name\": \"Ana Torres Ruiz\",\n    \"email\": \"ana.torres@puce.edu.ec\"\n}"
 						},
 						"url": {
-							"raw": "http://localhost:8787/api/students/1",
+							"raw": "http://localhost:8082/api/students/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8787",
+							"port": "8082",
 							"path": [
 								"api",
 								"students",
@@ -111,12 +111,12 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8787/api/students/1",
+							"raw": "http://localhost:8082/api/students/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8787",
+							"port": "8082",
 							"path": [
 								"api",
 								"students",
@@ -145,12 +145,12 @@
 							"raw": "{\n    \"name\": \"Dr. García\",\n    \"email\": \"garcia@puce.edu.ec\"\n}"
 						},
 						"url": {
-							"raw": "http://localhost:8787/api/professors",
+							"raw": "http://localhost:8082/api/professors",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8787",
+							"port": "8082",
 							"path": [
 								"api",
 								"professors"
@@ -164,12 +164,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8787/api/professors",
+							"raw": "http://localhost:8082/api/professors",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8787",
+							"port": "8082",
 							"path": [
 								"api",
 								"professors"
@@ -183,12 +183,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8787/api/professors/1",
+							"raw": "http://localhost:8082/api/professors/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8787",
+							"port": "8082",
 							"path": [
 								"api",
 								"professors",
@@ -212,12 +212,12 @@
 							"raw": "{\n    \"name\": \"Dr. Juan García\",\n    \"email\": \"jgarcia@puce.edu.ec\"\n}"
 						},
 						"url": {
-							"raw": "http://localhost:8787/api/professors/1",
+							"raw": "http://localhost:8082/api/professors/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8787",
+							"port": "8082",
 							"path": [
 								"api",
 								"professors",
@@ -232,12 +232,12 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8787/api/professors/1",
+							"raw": "http://localhost:8082/api/professors/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8787",
+							"port": "8082",
 							"path": [
 								"api",
 								"professors",
@@ -266,12 +266,12 @@
 							"raw": "{\n    \"name\": \"Arquitectura Empresarial\",\n    \"code\": \"AE-101\",\n    \"professorId\": 1\n}"
 						},
 						"url": {
-							"raw": "http://localhost:8787/api/subjects",
+							"raw": "http://localhost:8082/api/subjects",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8787",
+							"port": "8082",
 							"path": [
 								"api",
 								"subjects"
@@ -285,12 +285,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8787/api/subjects",
+							"raw": "http://localhost:8082/api/subjects",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8787",
+							"port": "8082",
 							"path": [
 								"api",
 								"subjects"
@@ -304,12 +304,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8787/api/subjects/1",
+							"raw": "http://localhost:8082/api/subjects/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8787",
+							"port": "8082",
 							"path": [
 								"api",
 								"subjects",
@@ -333,12 +333,12 @@
 							"raw": "{\n    \"name\": \"Arquitectura Empresarial Avanzada\",\n    \"code\": \"AE-102\",\n    \"professorId\": 1\n}"
 						},
 						"url": {
-							"raw": "http://localhost:8787/api/subjects/1",
+							"raw": "http://localhost:8082/api/subjects/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8787",
+							"port": "8082",
 							"path": [
 								"api",
 								"subjects",
@@ -353,12 +353,12 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8787/api/subjects/1",
+							"raw": "http://localhost:8082/api/subjects/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8787",
+							"port": "8082",
 							"path": [
 								"api",
 								"subjects",
@@ -387,12 +387,12 @@
 							"raw": "{\n    \"studentId\": 1,\n    \"subjectId\": 1\n}"
 						},
 						"url": {
-							"raw": "http://localhost:8787/api/enrollments",
+							"raw": "http://localhost:8082/api/enrollments",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8787",
+							"port": "8082",
 							"path": [
 								"api",
 								"enrollments"
@@ -406,12 +406,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8787/api/enrollments",
+							"raw": "http://localhost:8082/api/enrollments",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8787",
+							"port": "8082",
 							"path": [
 								"api",
 								"enrollments"
@@ -425,12 +425,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8787/api/enrollments/1",
+							"raw": "http://localhost:8082/api/enrollments/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8787",
+							"port": "8082",
 							"path": [
 								"api",
 								"enrollments",
@@ -454,12 +454,12 @@
 							"raw": "{\n    \"status\": \"APROBADO\"\n}"
 						},
 						"url": {
-							"raw": "http://localhost:8787/api/enrollments/1",
+							"raw": "http://localhost:8082/api/enrollments/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8787",
+							"port": "8082",
 							"path": [
 								"api",
 								"enrollments",
@@ -474,12 +474,12 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8787/api/enrollments/1",
+							"raw": "http://localhost:8082/api/enrollments/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8787",
+							"port": "8082",
 							"path": [
 								"api",
 								"enrollments",
